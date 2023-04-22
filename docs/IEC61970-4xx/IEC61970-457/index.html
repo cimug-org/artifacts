@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata Section -->
+    <meta charset="UTF-8">
+    <title>UCAIug - IEC 61970-457 - Open Source Artifacts</title>
+    <meta name="description" content="Official UCAIug site for all open source (Apache 2.0) artifacts.">
+    <meta name="keywords" content="IEC, CIM, RDFS, RDF, XSD, JSON, schemas, standards, profiles">
+    <meta name="robots" content="index,follow">
+    <meta name="dc.language" content="en">
+    <meta name="dc.title" content="UCAIug - IEC 61970-457 - Open Source Artifacts">
+    <meta name="dc.description" content="UCAIug - IEC 61970-457 - Open Source Artifacts">
+    <meta name="dc.subject" content="IEC, CIM, RDFS, RDF, XSD, JSON, schemas, standards, profiles">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        color: #000;
+      }
+      header {
+        background-color: #eeeeee;
+        color: #000;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+      }
+      header img {
+        height: 100px;
+        margin-left: 10px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2em;
+        align-items: left;
+        font-weight: normal;
+        text-transform: uppercase;
+      }
+      main {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.5;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #039FAC;
+        font-weight: bold;
+        white-space: nowrap;
+        text-transform: uppercase;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        color: #f00;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="https://github.com/cimug-org/artifacts" target="_blank">
+        <img src="../../images/cimug-logo.png" alt="CIM Users Group Logo">
+      </a>
+      <h1>IEC 61970-457</h1>
+      <div></div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Standard</th>
+            <th>Edition</th>
+            <th>Status</th>
+            <th>Abstract</th>
+            <th>IEC Webstore</th>
+          </tr>
+        </thead>
+        <tbody>
+
+<tr>
+    <td style="white-space: nowrap;"><a href="Ed1.0/index.html">IEC 61970-457:2021</a></td>
+    <td>1.0</td>
+    <td>IS</td>
+    <td><b>IEC 61970-457:2021</b> specifies a standard interface for exchanging dynamic model information needed to support the analysis of the steady state stability (small-signal stability) and/or transient stability of a power system or parts of it. The schema(s) for expressing the dynamic model information are derived directly from the CIM, more specifically from IEC 61970-302.
+    <br><br>The scope of this document includes only the dynamic model information that needs to be exchanged as part of a dynamic study, namely the type, description and parameters of each control equipment associated with a piece of power system equipment included in the steady state solution of a complete power system network model. Therefore, this profile is dependent upon other standard profiles for the equipment as specified in IEC 61970-452, CIM static transmission network model profiles, the topology, the steady state hypothesis and the steady-state solution (as specified in IEC 61970-456, Solved power system state profiles) of the power system, which bounds the scope of the exchange. The profile information described by this document needs to be exchanged in conjunction with IEC 61970-452 and IEC 61970-456 profiles’ information to support the data requirements of transient analysis tools. IEC 61970 456 provides a detailed description of how different profile standards can be combined to form various types of power system network model exchanges.
+    <br><br>This document supports the exchange of the following types of dynamic models:<ul>
+      <li>standard models: a simplified approach to exchange, where models are contained in predefined libraries of classes interconnected in a standard manner that represent dynamic behaviour of elements of the power system. The exchange only indicates the name of the model along with the attributes needed to describe its behaviour.</li>
+      <li>proprietary user-defined models: an exchange that would provide users the ability to exchange the parameters of a model representing a vendor or user proprietary device where an explicit description of the model is not described in this document. The connections between the proprietary models and standard models are the same as described for the standard models exchange. Recipient of the data exchange will need to contact the sender for the behavioural details of the model.</li></ul>
+      
+        This document builds on IEC 61970-302, CIM for dynamics which defines the descriptions of the standard dynamic models, their function block diagrams, and how they are interconnected and associated with the static network model. This type of model information is assumed to be pre-stored by all software applications hence it is not necessary to be exchanged in real-time or as part of a dynamics model exchange.</td>
+    <td><a href="https://webstore.iec.ch/publication/31929">https://webstore.iec.ch/publication/31929</a></td>
+</tr>
+
+<tr>
+    <td style="white-space: nowrap;"><a href="Ed2.0/index.html">IEC 61970-457:2023</a></td>
+    <td>2.0</td>
+    <td>FDIS</td>
+    <td>TBD</td>
+    <td>TBD</td>
+</tr>
+
+          <!-- Add more rows for each concept scheme -->
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
