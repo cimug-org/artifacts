@@ -1,1 +1,1 @@
-# open-source-artifacts
+# public-artifacts
